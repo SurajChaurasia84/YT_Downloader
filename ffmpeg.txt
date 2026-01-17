@@ -1,5 +1,57 @@
-// for ffmpeg.exe
+HOW TO DOWNLOAD AND SETUP FFMPEG (WINDOWS)
 
-Download the ffmpeg and locate inside the root directory.
+FFmpeg is required for downloading and merging YouTube videos.
+Follow the steps carefully.
 
-Thank You,
+------------------------------------------------------------
+STEP 1: DOWNLOAD FFMPEG
+------------------------------------------------------------
+1. Open your web browser.
+2. Go to: https://ffmpeg.org/download.html
+3. Click on "Windows".
+4. Click on "Windows builds from gyan.dev".
+5. You will be redirected to a new page.
+6. Download:
+   "ffmpeg-release-essentials.zip"
+
+------------------------------------------------------------
+STEP 2: EXTRACT FFMPEG
+------------------------------------------------------------
+1. Go to your Downloads folder.
+2. Right-click on "ffmpeg-release-essentials.zip".
+3. Click "Extract All".
+4. Open the extracted folder.
+5. Rename the folder to: ffmpeg
+6. Move this folder to:
+   C:\ffmpeg
+
+------------------------------------------------------------
+STEP 3: ADD FFMPEG TO SYSTEM PATH
+------------------------------------------------------------
+1. Press Windows + R
+2. Type: sysdm.cpl
+3. Press Enter
+4. Go to the "Advanced" tab.
+5. Click "Environment Variables"
+6. Under "System variables", find and select "Path"
+7. Click "Edit"
+8. Click "New"
+9. Add this path:
+   C:\ffmpeg\bin
+10. Click OK on all windows.
+
+------------------------------------------------------------
+STEP 4: VERIFY INSTALLATION
+------------------------------------------------------------
+1. Open Command Prompt (cmd).
+2. Type:
+   ffmpeg -version
+3. Press Enter.
+
+If FFmpeg version information appears,
+FFmpeg is installed successfully.
+
+------------------------------------------------------------
+SETUP COMPLETE
+------------------------------------------------------------
+You can now run the YouTube Downloader project.
